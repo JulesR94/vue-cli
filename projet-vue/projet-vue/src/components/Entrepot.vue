@@ -4,6 +4,8 @@ import { ref } from 'vue'
 </script>
 
 <template>
+<section>
+  <h2>Les pianos disponible<h2>
   <table>
 
     <thead>
@@ -13,10 +15,10 @@ import { ref } from 'vue'
     </thead>
 
     <tbody id="app">
-      <tr v-for-key="entrepot in entrepots">
-        <td>{{ entrepot.Marque }}</td>
-        <td>{{ entrepot.Couleur }}</td>
-        <td>{{ entrepot.Stock }}</td>
+      <tr v-for ="Entrepot in Entrepots">
+        <td>{{ Entrepot.Marque }}</td>
+        <td>{{ Entrepot.Couleur }}</td>
+        <td>{{ Entrepot.Stock }}</td>
       </tr>
     </tbody>
 
@@ -27,14 +29,35 @@ import { ref } from 'vue'
     </tfoot>
 
   </table>
+</section>
 </template>
+
+<style scoped>
+#app{
+  
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+}
+table{
+  border: 2px solid yellow
+}
+section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+</style>
 
 <script>
 
 export default{
   data () {
     return {
-      entrepots: [
+      Entrepots: [ 
         { 
         "id":1,
         "Marque": "Bechstein",
@@ -59,7 +82,7 @@ export default{
         "Couleur": "Noir",
         "Stock": 6
         }
-      ]
+    ]
     }  
   },
 
@@ -71,8 +94,3 @@ export default{
 }
 </script>
 
-<style scoped>
-a {
-  color: #42b983;
-}
-</style>
