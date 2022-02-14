@@ -1,8 +1,8 @@
 <template>
   <div class="hello">
-     <div class="firstpage">
-  <img src="/projet-vue/src/assets/AfriknFusion_AfriknMixAgneau.png" alt="homepage">
-  </div>
+    
+  
+  
     <!-- <h1>{{ msg }}</h1>
     <p>
       For a guide and recipes on how to configure / customize this project,<br />

@@ -11,6 +11,7 @@
             <li><a href="">Contact</a></li>
         </ul>
     </nav>
+    <img src="projet-vue/src/assets/AfriknFusion_AfriknMixAgneau.png" alt="homepage">
   <!-- <div id="nav">
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link>
