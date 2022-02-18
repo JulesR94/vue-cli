@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <img alt="homepage" src="../assets/AfriknFusion_AfriknMixAgneau.png">
-    <!-- <acceuil /> -->
-    <!-- <HelloWorld msg="Bienvenue" />  -->
+    <acceuil />
+    <HelloWorld msg="Bienvenue" /> 
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
