@@ -3,7 +3,7 @@
     <img alt="homepage" src="../assets/AfriknFusion_AfriknMixAgneau.png">
     <acceuil />
     <HelloWorld msg="Bienvenue" /> 
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       <img src="..." class="d-block w-100" alt="...">
@@ -15,7 +15,7 @@
       <img src="..." class="d-block w-100" alt="...">
     </div>
   </div>
-</div>
+</div> -->
     <div class="present">
         <h2>Qui sommes nous?</h2>
         <p>Amoureux de cuisine et des saveurs, nous avons naturellement décidé de faire de notre passion un métier, c’est grace à cela que nous pouvons vous proposer aujourd’hui un service de traiteur pour vos événements mais également de vente à emporter.

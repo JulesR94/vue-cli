@@ -12,7 +12,8 @@
 
 </template>
 
-<style lang="scss">
+<style scoped>
+
 @font-face {
   font-family: myfont;
   src: url("../police/alfa-slab-one/AlfaSlabOne-Regular.ttf");
